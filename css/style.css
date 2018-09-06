@@ -1,0 +1,128 @@
+body {
+  background-image: url("http://anne-crea.com/annecrea/15340-super-smash-bros-wallpaper_81174.jpg");
+  background-repeat:repeat;
+  background-size:100% 100%;
+  color: black;
+  font: 24px Helvetica; 
+  font-size: large;
+ }
+
+ #container {
+   color:white;
+   display: flex;
+   flex-flow:row;  
+   font-size: large;
+   margin: 10px; 
+   min-height: 800px; 
+   padding: 0px;
+     
+  }
+
+ #container > .article {
+   border: 3px solid red;
+   border-radius: 7pt;
+   flex: 1 1 auto; /*3 1 60% <flex-grow> <flex-shrink> <flex-basis> */
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 1px;
+   order: 1 ;
+   padding: 5px;
+   text-align: justify;
+   width: 80%
+  }
+ .resumen{
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 7pt;
+  margin: 5px;
+  color: rgba(255, 255, 255, 0.527);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:larger;
+  font-weight:500;
+ }
+ .n64{
+  border: 3px solid;
+  border-color: red;
+  border-radius: 7pt;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:larger;
+  font-weight: 500;
+  margin: 5px;
+ }
+ .melee{
+  border: 3px solid;
+  border-color: violet;
+  border-radius: 7pt;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:larger;
+  font-weight: 500; 
+  margin: 5px;
+ }
+ .brawl{
+  border: 3px solid;
+  border-color: white;
+  border-radius: 7pt;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:larger;
+  font-weight: 500; 
+  margin: 5px;
+ }
+ 
+ #container > .aside {
+  border: 3px solid green;
+  border-radius: 7pt;
+  flex: 1 1 auto;  /*2 6 30%  <flex-grow> <flex-shrink> <flex-basis>*/
+  margin: 4px;
+  padding: 5px;
+  order: 2;
+  text-align: justify;
+  }
+
+ .header{
+   align-items: center;
+   border: 3px solid green;
+   border-radius: 7pt;
+   color: white;
+   display: flex;
+   flex: 1 1 auto;
+   font-family:'Helveticah',cursive;
+   margin: 4px;
+   padding: 5px;
+   min-height: auto;
+   min-width: auto;
+   flex-direction: row;
+   justify-content:space-between;
+   
+ }
+  
+.footer{  
+  align-items: center; 
+  border: 3px solid green;
+  border-radius: 7pt;
+  color:white;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: row;
+  font-family: 'Helveticah', cursive;
+  font-size: large;  
+  justify-content: space-between;
+  margin: 4px;
+  min-height: auto;
+  min-width: auto;
+  padding: 5px;
+
+}
+  
+
+ @media all and (max-width: 600px) {  /*800*/
+  #container, #page {
+  flex-flow: column;
+  }
+
+  #container > .article, #container > .aside {
+   order: 0; }
+ 
+ 
+     
+ }
