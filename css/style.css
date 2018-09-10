@@ -2,7 +2,7 @@ body {
   background-image: url("http://anne-crea.com/annecrea/15340-super-smash-bros-wallpaper_81174.jpg");
   background-repeat:repeat;
   background-size:100% 100%;
-  color: black;
+  color: white;
   font: 24px Helvetica; 
   font-size: large;
  }
@@ -33,14 +33,14 @@ body {
   border: 3px solid rgb(255, 255, 255);
   border-radius: 7pt;
   margin: 5px;
-  color: rgba(255, 255, 255, 0.527);
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size:larger;
   font-weight:500;
  }
  .n64{
   border: 3px solid;
-  border-color: red;
+  border-color: red green blue yellow;
   border-radius: 7pt;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
@@ -68,7 +68,38 @@ body {
   font-weight: 500; 
   margin: 5px;
  }
- 
+ .four{
+  border: 3px solid;
+  border-color: white red  red white;
+  border-radius: 7pt;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:larger;
+  font-weight: 500; 
+  margin: 5px;
+ }
+
+ .ultimate{
+  border: 3px solid;
+  border-color: blue black  red white;
+  border-radius: 7pt;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:larger;
+  font-weight: 500; 
+  margin: 5px;
+ }
+ .mods{
+  border: 3px solid;
+  border-color: blue violet  red white;
+  border-radius: 7pt;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:larger;
+  font-weight: 500; 
+  margin: 5px;
+ }
+
  #container > .aside {
   border: 3px solid green;
   border-radius: 7pt;
