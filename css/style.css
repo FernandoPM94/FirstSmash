@@ -1,7 +1,7 @@
 body {
   background-image: url("http://anne-crea.com/annecrea/15340-super-smash-bros-wallpaper_81174.jpg");
-  background-repeat:repeat;
-  background-size:100% 100%;
+  background-repeat:repeat; 
+ background-size:100%; 
   color: white;
   font: 24px Helvetica; 
   font-size: large;
@@ -27,7 +27,7 @@ body {
    order: 1 ;
    padding: 5px;
    text-align: justify;
-   width: 80%
+   width: 80%;
   }
  .resumen{
   border: 3px solid rgb(255, 255, 255);
@@ -154,6 +154,282 @@ body {
   #container > .article, #container > .aside {
    order: 0; }
  
- 
+ /**/
      
  }
+
+ .category-gallery-item
+{
+    position:relative;
+    display:inline-block;
+    width:auto;
+    margin: 1px;
+    height:auto;
+    vertical-align:top;
+}
+
+.category-gallery-item img
+{
+    position:absolute;
+    padding:2px 2px 2px 2px;/*4 6 5 5*/
+}
+
+.title
+{
+    font-size:9px;
+}
+.title
+{
+    margin-top:10px;
+    display:block;
+}
+
+
+
+.category-gallery-item .title
+{
+    background-color:red;
+    border-bottom-right-radius:9px;
+    border-top-right-radius:9px;
+    color:white;
+    display:inline-block;
+    font-family:Helvetica,Arial,sans-serif;
+    font-style:normal;
+    font-size:11px;
+    font-weight:normal;
+    line-height:15px;
+    margin-top:200px;
+    max-height:auto;
+    max-width:200px;
+    overflow:hidden;
+    padding:3px 5px 3px;
+    position:relative;
+}
+
+#myDIV {
+    display: none;
+    align:center;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+#myDIV3 {
+    display: none;
+    align:center;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+#myDIV4 {
+    display: none;
+    align:center;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+#myDIV6 {
+    display: none;
+    align:center;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+#myDIV8 {
+    display: none;
+    align:center;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+#myDIV9 {
+    display: none;
+    align:center;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+#myDIV11 {
+    display: none;
+    align:center;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+#myDIV12 {
+    display: none;
+    align:center;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+#myDIV13 {
+    display: none;
+    align:center;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+#myDIV14 {
+    display: none;
+    align:center;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+#myDIV15 {
+    display: none;
+    align:center;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+#myDIV16 {
+    display: none;
+    align:center;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+#myDIV17 {
+    display: none;
+    align:center;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+#myDIV18 {
+    display: none;
+    align:center;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+#myDIV19 {
+    display: none;
+    align:center;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+#myDIV20 {
+    display: none;
+    align:center;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+#myDIV21 {
+    display: none;
+    align:center;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+#myDIV22 {
+    display: none;
+    align:center;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+#myDIV23 {
+    display: none;
+    align:center;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+#myDIV24 {
+    display: none;
+    align:center;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+#myDIV25 {
+    display: none;
+    align:center;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+#myDIV26 {
+    display: none;
+    align:center;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+#myDIV27 {
+    display: none;
+    align:center;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+#myDIV28 {
+    display: none;
+    align:center;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    visibility: visible;
+    width: 300px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50 0 0 0 ;
+    position: absolute;
+    z-index: 20px;
+    bottom: 25%;
+    left: 50%;
+    margin-left: -20px;
+    margin-bottom: 50px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+
+
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+    bottom: 50%;
+
+}
