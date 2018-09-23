@@ -111,13 +111,14 @@ body {
   }
 
  .header{
+  background-image:url(http://www.textures4photoshop.com/tex/thumbs/fire-flames-frame-free-background-thumb33.jpg);
    align-items: center;
    border: 3px solid green;
    border-radius: 7pt;
    color: white;
    display: flex;
    flex: 1 1 auto;
-   font-family:'Helveticah',cursive;
+   font-family:Arial, Helvetica, sans-serif;
    margin: 4px;
    padding: 5px;
    min-height: auto;
@@ -135,7 +136,7 @@ body {
   display: flex;
   flex: 1 1 auto;
   flex-direction: row;
-  font-family: 'Helveticah', cursive;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: large;  
   justify-content: space-between;
   margin: 4px;
@@ -424,12 +425,42 @@ body {
     transition: opacity 0.3s;
 }
 
-
-
-
 .tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
     bottom: 50%;
 
+}
+.clockdate-wrapper {
+    font-family:"Digital-7";
+    background-color: black;
+    padding:10px;
+    max-width:300px;
+    width:100%;
+    text-align:center;
+    border-radius:2px;
+    margin:0 auto;
+    margin-top:10%;
+}
+#clock{
+    background-color:black;
+    font-family:"Digital-7";
+    font-size:60px;
+    text-shadow:0px 0px 1px #fff;
+    color:blue;
+}
+#clock span {
+    font-family:"Digital-7";
+    color:blue;
+    text-shadow:0px 0px 1px blue;
+    font-size:30px;
+    position:relative;
+    top:-27px;
+    left:-10px;
+}
+#date {
+    font-family:"Digital-7";
+    letter-spacing:8px;
+    font-size:16px;
+    color:blue;
 }
